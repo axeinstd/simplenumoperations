@@ -1,8 +1,7 @@
 # NUMOPERATIONS
 This pkg now only can calculate maths expressions.
 
-# NOW IN TestPYPI! Install - 
-**pip install -i https://test.pypi.org/simple/simple-num-operations==0.1** 
+# NOW IN TestPYPI! View at https://test.pypi.org/project/simple-num-operations/
 
 **Use from simple_num_operations.v01 import calculate**
 1. Arguments to calculate func - **(expression:str)**

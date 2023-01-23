@@ -8,7 +8,7 @@ This pkg now only can calculate maths expressions.
   2. If no maths expr, will be exeption NotMathsExpr.
 
 # v02 use:
- v02 - very simple way to create a console calculater. In function calculate_simple(expression) embedded many checkers.
+ v02 - very simple way to create a console calculator. In function calculate_simple(expression) embedded many checkers.
  Example to use:
   ```python
 from simple_num_operations.v02 import calculate_simple  # importing module

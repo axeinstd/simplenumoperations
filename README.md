@@ -8,10 +8,20 @@ This pkg now only can calculate maths expressions.
  ```
 
 # v01 use:
-  **Use from simple_num_operations.v01 import calculate**
-  1. Arguments to calculate func - **(expression:str)**
-  2. If no maths expr, will be exeption NotMathsExpr.
-
+  **When u install simple-num-operations, colorama install, too**
+  Example program use v01:
+  ```python
+  from simple_num_operations.v01 import calculate
+  from simple_num_operations.exceptions_all import NotMathsExpression
+  from colorama import Fore  # additional library (unnecessary)
+  while True:
+    try:
+        print(Fore.LIGHTGREEN_EX + f"{calculate(input('>>> '))}" + Fore.RESET)  # use while cycle and run function
+    except NotMathsExpression:  # if input not a math expression
+        print(Fore.LIGHTRED_EX + 'Not math expr' + Fore.RESET)
+    except ZeroDivisionError:  # if devise by zero
+        print(Fore.LIGHTRED_EX + 'Cannot devise by zero' + Fore.RESET)
+  ```
 # v02 use:
  v02 - very simple way to create a console calculator. In function calculate_simple(expression) embedded many checkers.
  Example to use:
@@ -22,4 +32,4 @@ while True: print(calculate_simple(input('>>> ')))  # use while cycle and run fu
 
 ```
 
-# NOW version v0.1b0! Soon, will be documentation!
+# NOW version v0.1b0!

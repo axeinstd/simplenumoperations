@@ -2,7 +2,7 @@
 This pkg now only can calculate maths expressions.
 
 # NOW IN PYPI! View at https://pypi.org/project/simple-num-operations
-install:
+**install in terminal**:
  ```terminal
  pip install simple-num-operations
  ```

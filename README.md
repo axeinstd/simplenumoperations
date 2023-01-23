@@ -2,6 +2,11 @@
 This pkg now only can calculate maths expressions.
 
 # NOW IN PYPI! View at https://pypi.org/project/simple-num-operations
+install:
+ ```terminal
+ pip install simple-num-operations
+ ```
+
 # v01 use:
   **Use from simple_num_operations.v01 import calculate**
   1. Arguments to calculate func - **(expression:str)**

@@ -7,7 +7,7 @@ This pkg now only can calculate maths expressions.
   1. Arguments to calculate func - **(expression:str)**
   2. If no maths expr, will be exeption NotMathsExpr.
 
-#v02 use:
+# v02 use:
  v02 - very simple way to create a console calculater. In function calculate_simple(expression) embedded many checkers.
  Example to use:
   ```python

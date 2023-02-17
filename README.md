@@ -32,4 +32,4 @@ while True: print(calculate_simple(input('>>> ')))  # use while cycle and run fu
 
 ```
 
-# NOW version v0.1b0!
+# NOW version 1!
